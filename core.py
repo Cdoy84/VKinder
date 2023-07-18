@@ -44,7 +44,7 @@ class VkTools:
                                       {
                                           'count': 50,
                                           'offset': offset,
-                                          'hometown': params['city'] if params['city'] else 'Москва',
+                                          'hometown': params['city'] if params['city'] else 'Екатеринбург',
                                           'sex': 1 if params['sex'] == 2 else 2,
                                           'has_photo': True,
                                           'age_from': params['year'] - 3,
