@@ -80,7 +80,7 @@ class BotInterface :
                             photo_string += f'photo{photo["owner_id"]}_{photo["id"]},'
                         self.offset += 50
 
-                         self.message_send(
+                        self.message_send(
                         event.user_id,
                         f'имя: {worksheet["name"]} ссылка: vk.com/id{worksheet["id"]}',
                     )
