@@ -22,6 +22,7 @@ class BotInterface :
         self.vk.method('messages.send',
                        {'user_id': user_id,
                         'message': message,
+                        'attachment': attachment,
                         'random_id': get_random_id()}
                        )
     # Обработка событий / получение сообщений
