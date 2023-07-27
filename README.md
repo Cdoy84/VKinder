@@ -1,2 +1,0 @@
-# VKinder
-# VKinder_bot
